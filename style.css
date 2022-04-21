@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f5f5f4;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.searchbar{
+ 
+    width: 850px;
+    height: 60px;
+    margin-left: 250px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.nav{
+ 
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #4caf50;
+    
+}
+
+.nav ul{
+    list-style-type: none;
+    height: 20px;
+    
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: white;
+    
+}
+
+.nav ul li{
+    float: left;
+    background-color: #4caf50;
+    text-transform: uppercase;
+  
+}
+
+.nav ul li a:hover{
+     background-color: green;
+}
+
+.main{
+
+    overflow: hidden;
+   
+}
+.aside{
+    width: 45%;
+    float: right;
+    color:red;
+    margin-top: 10px;
+    padding-left:50px;
+    color: green;
+}
+
+.article{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.home_panel{
+    width: 100%;
+    margin: 20px;
+}
+
+.panel{
+    border: 1px solid #efe8e8;
+  width: 120px;
+  height: 100px;
+    float: left;
+    margin: 5px;
+    box-shadow: rgb(99 99 99 / 20%) 0 2px 8px 0;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px;
+}
+
+.aside ol li{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.panel img{
+    margin-bottom: 5px;
+    border-radius: 3px;
+    max-width: 100%;
+    height: 50px;
+    object-fit: contain;
+    overflow: hidden;
+    padding: 2px;
+
+}
+
+.panel p{
+    font-size: 14.5px;
+}
+
+.section{
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    background-image: linear-gradient(145deg,#52a2fc,#480fcc);
+    line-height: 28px;
+    padding-left: 20px; 
+    padding-bottom: 60px;
+}
+
+.section ul{
+    margin-left: 20px;
+}
+
+.section2{
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(145deg,#dc8140,#b16b15);
+    line-height: 28px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+
+.sub-footer{
+  width: 100%;
+  background-color:#4caf50;
+  height: 400px;
+  color: white;
+  padding-top: 20px;
+}
+
+.sub-fchild{
+  
+    width: 20%;
+    float: left;
+    padding: 20px;
+
+    
+}
+
+.sub-fchild ul li{
+    list-style-type: none;
+    color: white;
+    padding-bottom: 8px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #3b753d;
+    color: white;
+    height: 70px;
+
+}
